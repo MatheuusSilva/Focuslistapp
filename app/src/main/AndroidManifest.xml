@@ -15,7 +15,10 @@
 
         <activity
             android:name=".activity_add_atividade"
-            android:exported="false" />
+            android:exported="true"
+            android:label="Adicionar Atividade"
+            android:theme="@style/Theme.Focuslist" />
+
 
         <activity
             android:name=".RegisterActivity"
